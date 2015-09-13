@@ -1,0 +1,188 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+{ margin:0; padding:0; border:0; outline:0;
+ font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; 
+ vertical-align:baseline; }
+
+/* =5 701C4LB5 >?@545;8BL A>AB>O=8: "D>:CA", AB8;59 */
+:focus { outline:0; }
+body { line-height:1; color:black; background:white; }
+ol, ul { list-style:none; }
+
+/* B01;8F0< =5>1E>48< cellspacing="0" 2 @07<5B:5 */
+table { border-collapse:separate; border-spacing:0; }
+caption, th, td { text-align:left; font-weight:normal; }
+blockquote:before, blockquote:after, q:before, q:after { content:""; }
+blockquote, q { quotes:"" ""; }
+
+h1 {
+	text-align: center;
+	font-size: 57px;
+  	font-family: "Myriad Pro";
+  	color: rgb(0, 173, 238);
+  	line-height: 0.246;
+}
+
+a {
+	text-decoration: none;
+	font-family: "Myriad Pro";
+}
+
+span {
+	font-family: "Myriad Pro";
+}
+
+#header {
+	width: 100%;
+	height: 115px;
+	text-align: center;
+}
+
+.container {
+  	width: 950px;
+  	margin: 0 auto;
+}
+
+#head-top {
+	background-color: white;
+	height: 40px;
+}
+
+.logo {
+	float: left;
+	background-color: white;
+	border: 1px solid #b8ddf1;
+	padding: 15px; 
+	position: absolute;
+	top: 60px;
+	left: 21%;
+}
+
+.text {
+	float: left;
+	margin: 19px 100px 17px 182px;
+	font-size: 30px;
+  	font-family: "Myriad Pro";
+  	color: rgb(75, 75, 75);
+  	line-height: 0.8;
+}
+
+.text-nav {
+	float: right;
+	margin-right: 30px;
+	margin-top: 23px;
+}
+
+.text-nav ul {
+	float: right;
+}
+
+.text-nav li {
+	float: left;
+	margin: 0 5px;  
+}
+
+.text-nav a {
+	text-decoration: none;
+  	font-size: 15px;
+  	color: #919191;
+  	line-height: 0.872;
+}
+
+.text-nav a:hover {
+	color: #3baeee;
+}
+
+#head-bottom {
+	clear: both;
+	background-color: #3baeee;
+	height: 55px;
+}
+
+.nav {
+	float: right;
+	text-align: center;
+}
+
+.nav li {
+	float: left;
+	margin-right: 12px;
+	margin-top: 20px; 
+}
+
+.nav a {
+	font-size: 16px;
+  	font-weight: bold;
+  	color: white;
+  	line-height: 0.875;
+}
+
+.nav div{
+	padding: 0 5px;
+	padding-top: 10px;
+	height: 25px;
+	border: 1px solid white;
+	border-radius: 3px;
+	position: relative;
+	bottom: 12px ; 
+}
+
+#slide1 {
+	height: 672px;
+	background: white url(img/page1.png) no-repeat center bottom;
+}
+
+#slide1 h1 {
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 115px;
+  	
+}
+
+div.sub {
+	margin-top: 40px;
+}
+
+
+span.shadow {
+	margin-left: 53px;
+  	font-size: 30px;
+	color: rgb(71, 71, 74);
+	line-height: 0.467;
+	text-shadow:  19px 25px 0px rgba(71, 71, 74, 0.122);
+}
+
+.slide2 {
+	height: 810px;
+	padding-top: 54px;
+	background-color: #eeeeee;
+	box-shadow: 0px 3px 0px 7px #cbcbcb; 
+	text-align: center;
+}
+
+.tabwrap {
+	padding: 78px 70px 0 0;
+	border: 1px solid;
+	clear: both;
+}
+
+.tabwrapitems {
+	float: left;
+	width: 28%;
+	margin: 0 22px;
+	border: 1px dashed;
+}
+
+h4.title {
+	margin-top: 53px;
+	font-size: 24px;
+	font-family: "Myriad Pro";
+	color: #47474a;
+}
+
+#footer {
+	clear: both;
+}
+
