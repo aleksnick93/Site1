@@ -106,17 +106,63 @@ span {
 	text-align: center;
 }
 
-.nav li {
+.nav>li {
 	float: left;
-	margin-right: 12px;
-	margin-top: 20px; 
+	padding: 19px 6px;
+	z-index: 199;
 }
 
-.nav a {
+.nav>li>div>a {
+	color: white;
+	font-size: 16px;
+  	font-weight: bold;
+  	line-height: 0.875;
+}
+
+
+.nav>li>a {
 	font-size: 16px;
   	font-weight: bold;
   	color: white;
   	line-height: 0.875;
+}
+
+.nav>li:hover {
+	background-color: #2c9cda;
+}
+
+.nav>li>ul {
+	display: none;
+	background-color: #2c9cda;
+	margin-top: 19px;
+	margin-left: -6px;
+}
+
+.nav>li:hover ul {
+	display: block;
+	position: absolute;
+	z-index: 100;
+}
+
+.nav>li:hover ul li {
+	float: none;
+}
+
+.nav>li ul li {
+	padding: 15px 60px 13px 27px;
+}
+
+.nav>li ul li:hover {
+	background-color: #3baeee;
+}
+
+.nav>li>ul a {
+	font-size: 14px;
+	color: white;
+}
+
+.nav>li>ul a:hover {
+	text-decoration: underline;
 }
 
 .nav div{
@@ -158,21 +204,19 @@ span.shadow {
 	height: 810px;
 	padding-top: 54px;
 	background-color: #eeeeee;
-	box-shadow: 0px 3px 0px 7px #cbcbcb; 
 	text-align: center;
 }
 
 .tabwrap {
-	padding: 78px 70px 0 0;
-	border: 1px solid;
-	clear: both;
+	padding: 78px 70px 0px 50px;
+	/*border: 1px solid;*/
 }
 
 .tabwrapitems {
 	float: left;
 	width: 28%;
 	margin: 0 22px;
-	border: 1px dashed;
+	/*border: 1px dashed;*/
 }
 
 h4.title {
@@ -182,7 +226,72 @@ h4.title {
 	color: #47474a;
 }
 
-#footer {
+.wrapbottom {
 	clear: both;
+	display: block;
+	margin: 57px 40px;
+}
+.wrapbottom a {
+	margin: 57px 40px;
+	text-align: center;
 }
 
+.wrapbottom a>h4:hover {
+	color: #00adee;
+}
+
+.wrapbottom p {
+	margin-top: 50px;
+	text-align: justify;
+	font-family: "Myriad Pro";
+	font-size: 20px;
+}
+
+#footer {
+	height: 340px;
+	padding-top: 87px;
+	background-color: #6c6c6c;
+	color: white;
+	box-shadow: 0px -3px 0px 3px #fff;
+}
+
+#footer ul {
+	float: left;
+	margin-left: 74px;
+	margin-top: -3px; 
+}
+
+#footer ul li a {
+	color: white;
+	line-height: 1.94;
+}
+
+#footer ul li a:hover {
+	color: #00adee;
+}
+
+#footer>div div{
+	display: inline-block;
+	margin-left: -10%;
+	text-align: left;
+	line-height: 1.5;
+} 
+
+#footer>div div p>a {
+	text-decoration: underline;
+	color: white;
+}
+
+#footer>div div img {
+	display: inline-block;
+	margin: 0 6px;
+	position: relative;
+	top: 20px;
+}
+
+#footer>div>img {
+	float: right;
+	margin-right: 78px;
+	position: relative;
+	top: -130px;
+}
