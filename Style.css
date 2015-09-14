@@ -162,7 +162,7 @@ span.shadow {
 }
 
 .tabwrap {
-	padding: 78px 70px 0 0;
+	padding: 78px 70px 0px 50px;
 	/*border: 1px solid;*/
 }
 
@@ -203,37 +203,44 @@ h4.title {
 
 #footer {
 	height: 340px;
-	padding: 87px 0px;
+	padding-top: 87px;
 	background-color: #6c6c6c;
 	color: white;
+	box-shadow: 0px -3px 0px 3px #fff;
 }
 
 #footer ul {
 	float: left;
 	margin-left: 74px;
-	margin-top: -5px; 
-	
+	margin-top: -3px; 
 }
 
 #footer ul li a {
 	color: white;
-	line-height: 1.74;
+	line-height: 1.94;
 }
 
 #footer ul li a:hover {
 	color: #00adee;
 }
 
-#footer div div{
-	margin-left: 204px;
-	/*text-align: left;*/
+#footer>div div{
+	display: inline-block;
+	margin-left: -10%;
+	text-align: left;
+	line-height: 1.5;
+} 
+
+#footer>div div p>a {
+	text-decoration: underline;
+	color: white;
 }
 
-#footer div>div>img {
+#footer>div div img {
 	display: inline-block;
+	margin: 0 6px;
 	position: relative;
-	bottom: 10px;
-	right: 20px;
+	top: 20px;
 }
 
 #footer>div>img {
